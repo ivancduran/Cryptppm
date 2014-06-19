@@ -1,6 +1,10 @@
 <?php
 
-class Crypt extends Phalcon\Mvc\User\Component
+namespace Cryptppm;
+
+use Phalcon\Mvc\User\Component;
+
+class Crypt extends Component
 {
 
 	// SECRET KEY HERE
